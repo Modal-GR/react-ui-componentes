@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Modal-GR/react-ui-componentes/issues"
   },
-  "homepage": "https://github.com/Modal-GR/react-ui-componentes#readme"
+  "homepage": "https://github.com/Modal-GR/react-ui-componentes#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "react": "^16.13.1",
+    "typescript": "^3.8.3"
+  }
 }
