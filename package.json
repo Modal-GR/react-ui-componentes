@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/Modal-GR/react-ui-componentes#readme",
   "devDependencies": {
+    "@storybook/addon-info": "^5.3.18",
     "@types/react": "^16.9.34",
     "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "ts-loader": "^7.0.1",
     "typescript": "^3.8.3"
   }
 }
