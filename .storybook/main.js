@@ -1,6 +1,6 @@
 const path = require('path')
 module.exports = {
-    addons: ['@storybook/addon-knobs/register'],
+    addons: ['@storybook/addon-knobs/register', '@storybook/addon-actions'],
     webpackFinal: async (config) => {
         config.module.rules.push({
             test: /\.(ts|tsx)$/,

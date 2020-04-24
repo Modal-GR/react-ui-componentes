@@ -1,4 +1,5 @@
 import { configure, addParameters, addDecorator } from '@storybook/react'
+// import { withActions } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
 import { withKnobs } from '@storybook/addon-knobs'
 import centered from '@storybook/addon-centered/react'
@@ -10,6 +11,7 @@ addParameters({
       theme,
     },
   })
+// addDecorator(withActions)
 addDecorator(withKnobs)
 addDecorator(withInfo)
 addDecorator(centered)
