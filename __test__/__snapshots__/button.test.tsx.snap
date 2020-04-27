@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> should render button 1`] = `
+exports[`Run tests of component <Button /> should render button 1`] = `
 <styled.button
   backgroundColor="#073d92"
   borderRadius="30px"
