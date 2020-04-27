@@ -4,12 +4,13 @@ import { create, ReactTestRenderer } from "react-test-renderer";
 
 import { Button } from "../src/index";
 
-describe("<Button />", () => {
+describe("Run tests of component <Button />", () => {
   const mockCallBack = jest.fn();
   const wrapper = shallow(<Button onClickButton={mockCallBack}>Click</Button>);
 
   it("should render button", () => {
     expect(wrapper).toMatchSnapshot();
+    expect(wrapper).toBeTruthy();
   });
 
   it("should render text correct", () => {
