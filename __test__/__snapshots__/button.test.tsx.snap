@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render button 1`] = `
+<styled.button
+  backgroundColor="#073d92"
+  borderRadius="30px"
+  color="#fff"
+  hoverType={
+    Object {
+      "ZoomIn": true,
+    }
+  }
+  onClick={[MockFunction]}
+>
+  Click
+</styled.button>
+`;
