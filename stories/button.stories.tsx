@@ -4,7 +4,7 @@ import { action } from "@storybook/addon-actions";
 import { text, object } from "@storybook/addon-knobs";
 import { Button } from "../src";
 
-storiesOf("Button", module).add("Default", () => (
+storiesOf("Button | Primary", module).add("Default", () => (
   <Button
     backgroundColor={text("backgroundColor", "#073d92")}
     borderRadius={text("borderRadius", "30px")}
