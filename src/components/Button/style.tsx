@@ -10,7 +10,7 @@ export const Container = styled.button<IButton>`
   cursor: pointer;
   font-size: 1em;
   font-weight: 700;
-  padding: 15px 30px;
+  padding: 5px 40px;
   transition: 0.4s all;
   &:hover {
     ${({ hoverType, backgroundColor }) => {

@@ -14,6 +14,7 @@ export { Card };
 /* Content */
 import ResponsiveImage from "./components/Image";
 export { ResponsiveImage };
-export { Flex, Grid } from "./components/Layout";
+export { Flex, Grid, Stack } from "./components/Layout";
 import Stars from "./components/Stars";
 export { Stars };
+export { Content } from "./components/Container";
