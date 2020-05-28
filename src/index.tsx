@@ -18,3 +18,8 @@ export { Flex, Grid, Stack } from "./components/Layout";
 import Stars from "./components/Stars";
 export { Stars };
 export { Content } from "./components/Container";
+import Separator from "./components/Separator";
+export { Separator };
+export { ScrollX, ScrollY } from "./components/Scroll";
+import Message from "./components/Message";
+export { Message };

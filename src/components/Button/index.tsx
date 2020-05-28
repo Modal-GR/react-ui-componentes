@@ -9,12 +9,14 @@ export const Button: React.FC<IProps> = ({
   children,
   color = "#fff",
   hoverType = { ZoomIn: true },
+  maxWidth,
   onClickButton,
 }: IProps) => (
   <Container
     backgroundColor={backgroundColor}
     borderRadius={borderRadius}
     color={color}
+    maxWidth={maxWidth}
     borderColor={borderColor}
     onClick={onClickButton}
     hoverType={hoverType}

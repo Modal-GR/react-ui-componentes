@@ -4,8 +4,8 @@ import { Transition } from "react-transition-group";
 interface ISlide {
   children: any;
   in: Boolean;
-  duration: Number;
-  positionX: Number;
+  duration?: Number;
+  positionX?: Number;
 }
 
 const Slide = ({ children, in: inProp, duration, positionX }: ISlide) => {
@@ -25,7 +25,7 @@ const Slide = ({ children, in: inProp, duration, positionX }: ISlide) => {
   };
   const defaultStyle = {
     transform: `translate3d(${positionX || "2000"}px, 0, 0)`,
-    transition: `all ${time}s`,
+    transition: `all ${time}s cubic-bezier(0, 0.69, 1, -0.04)`,
     opacity: 0,
   };
 

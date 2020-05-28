@@ -1,6 +1,6 @@
 {
   "name": "modalgr-ui-componentes",
-  "version": "1.0.5",
+  "version": "1.0.16",
   "description": "Biblioteca de componentes visuais genéricos com foco em produtividade e boas praticas.",
   "main": "dist/index.js",
   "private": false,
