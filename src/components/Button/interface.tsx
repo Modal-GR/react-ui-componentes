@@ -10,6 +10,7 @@ export interface IProps {
   borderColor?: string;
   children: string;
   color?: string;
+  maxWidth?: string;
   hoverType?: IHoverType;
   onClickButton?: () => void;
 }
@@ -20,4 +21,5 @@ export interface IButton {
   borderRadius: string;
   borderColor?: string;
   hoverType?: IHoverType;
+  maxWidth?: string;
 }
